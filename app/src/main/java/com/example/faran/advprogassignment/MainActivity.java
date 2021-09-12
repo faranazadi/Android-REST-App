@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         InputStream in = null;
         try {
             //The URL to connect to using API key
-            URL url = new URL("http://radikaldesign.co.uk/sandbox/studentapi/getallstudents.php?apikey=d7dbbbd1c3");
+            URL url = new URL("http://radikaldesign.co.uk/sandbox/studentapi/getallstudents.php?apikey=xxxxxxx");
 
             //Open the connection to the specified URL
             urlConnection = (HttpURLConnection) url.openConnection();
