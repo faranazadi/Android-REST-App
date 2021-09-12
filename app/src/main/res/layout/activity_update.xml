@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.faran.advprogassignment.UpdateActivity">
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/genderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameText"
+        android:layout_alignBottom="@+id/nameText"
+        android:layout_toEndOf="@+id/nameText"
+        android:ems="10"
+        android:hint="Gender"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/dobText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/genderText"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="Date of birth"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/addressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dobText"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/postcodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/courseText"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Postcode"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/studentNoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dobText"
+        android:layout_alignBottom="@+id/dobText"
+        android:layout_toEndOf="@+id/dobText"
+        android:ems="10"
+        android:hint="Student number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/bursaryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/postcodeText"
+        android:layout_toEndOf="@+id/postcodeText"
+        android:ems="10"
+        android:hint="Bursary"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/postcodeText"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/courseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addressText"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Course title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/startDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/courseText"
+        android:layout_alignBottom="@+id/courseText"
+        android:layout_toEndOf="@+id/courseText"
+        android:ems="10"
+        android:hint="Start date"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
